@@ -12,17 +12,13 @@ var $viewSiteLine = $(".viewSite .line");
 var $imageVid = $(".imageVid");
 var $aboutContact = $(".aboutTitleContactContainer a");
 var $aboutContactLine = $(".aboutTitleContactContainer a .thickLine");
-var $aboutPDF = $(".aboutPDF .aboutParagraphs a");
-var $aboutPDFLine = $(".aboutPDF .aboutParagraphs a .pdfLine");
 var $hamburguerMenuLine = $(".hamburguerMenu .line");
 
 // Timeline Variables
 var tlEnter;
 var tlEnterTwo;
 var tlAboutContact;
-var tlAboutPDF;
 var isTweening;
-
 
 
 
@@ -37,16 +33,7 @@ $($aboutContact).hover(
   }
 );
 
-// About - PDF Button
-$($aboutPDF).hover(
-  function() {
-    tlAboutPDF = new TimelineMax();
-    tlAboutPDF.to( $aboutPDFLine, 0.4, { width: "100%", ease: Power1.easeInOut });
-  },
-  function() {
-    tlAboutPDF.reverse();
-  }
-);
+
 
 //*********************//
 //**Horizontal Scroll**//
