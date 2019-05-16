@@ -42,17 +42,6 @@ $($deskNavLink).hover(
   }
 );
 
-// Home - View Site
-$(".tlEnter").hover(
-  function() {
-    tlEnter = new TimelineMax();
-        tlEnter.to( $viewSiteLine, 0.4, { width: "100%", ease: Power1.easeInOut });
-  },
-  function(){
-      tlEnter.reverse();
-  }
-);
-
 
 // Films - Hover Videos
 $($imgVidContainer).hover(
