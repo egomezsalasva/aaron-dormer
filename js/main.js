@@ -9,10 +9,7 @@
 var $homeTitle = $(".homeTitle");
 var $viewSite = $(".viewSite");
 var $viewSiteLine = $(".viewSite .line");
-var $imgVidContainer = $(".imageVidContainer");
 var $imageVid = $(".imageVid");
-var $overlayVid = $(".imageVidContainer .overlayVid");
-var $vimeoIcon = $(".vimeoIcon");
 var $aboutContact = $(".aboutTitleContactContainer a");
 var $aboutContactLine = $(".aboutTitleContactContainer a .thickLine");
 var $aboutPDF = $(".aboutPDF .aboutParagraphs a");
@@ -22,25 +19,12 @@ var $hamburguerMenuLine = $(".hamburguerMenu .line");
 // Timeline Variables
 var tlEnter;
 var tlEnterTwo;
-var tlOverlayVid;
 var tlAboutContact;
 var tlAboutPDF;
 var isTweening;
 
 
 
-
-// Films - Hover Videos
-$($imgVidContainer).hover(
-  function() {
-    tlOverlayVid = new TimelineMax();
-    tlOverlayVid.to( $(this).find($overlayVid), 0.4, { opacity: "0.33", ease: Power1.easeInOut });
-    tlOverlayVid.to( $(this).find($vimeoIcon), 0.4, { opacity: "1", ease: Power1.easeInOut, delay: "-0.4" });
-  },
-  function() {
-    tlOverlayVid.reverse();
-  }
-);
 
 // About - Contact Button
 $($aboutContact).hover(
