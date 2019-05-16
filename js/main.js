@@ -17,8 +17,6 @@ var $aboutContact = $(".aboutTitleContactContainer a");
 var $aboutContactLine = $(".aboutTitleContactContainer a .thickLine");
 var $aboutPDF = $(".aboutPDF .aboutParagraphs a");
 var $aboutPDFLine = $(".aboutPDF .aboutParagraphs a .pdfLine");
-var $deskNavLink = $(".deskNav a");
-var $deskNavLine = $(".deskNav a .line");
 var $hamburguerMenuLine = $(".hamburguerMenu .line");
 
 // Timeline Variables
@@ -27,20 +25,9 @@ var tlEnterTwo;
 var tlOverlayVid;
 var tlAboutContact;
 var tlAboutPDF;
-var tlNav;
-
 var isTweening;
 
-// Global - Navigation
-$($deskNavLink).hover(
-  function() {
-    tlNav = new TimelineMax();
-    tlNav.to( $(this).find($deskNavLine), 0.4, { width: "100%", ease: Power1.easeInOut });
-  },
-  function() {
-    tlNav.reverse();
-  }
-);
+
 
 
 // Films - Hover Videos
