@@ -409,7 +409,7 @@ header{
   cursor: url("../img/cursorFinger.svg") 7 9, auto;
 }
 
-#lightbox, #lightbox02, #lightbox03, #lightbox04, #lightbox05, #lightbox06{
+#lightbox, #lightbox02, #lightbox03, #lightbox04, #lightbox05, #lightbox06, #lightbox07{
     position:fixed; /* keeps the lightbox window in the current viewport */
     top:0;
     left:0;
@@ -420,7 +420,7 @@ header{
     z-index: 1000;
 }
 
-#lightbox p, #lightbox02 p, #lightbox03 p, #lightbox04 p, #lightbox05 p, #lightbox06 p {
+#lightbox p, #lightbox02 p, #lightbox03 p, #lightbox04 p, #lightbox05 p, #lightbox06 p, #lightbox07 p {
     text-align:right;
     color:#fff;
     margin-right:40px;
@@ -473,6 +473,13 @@ header{
 
 .vid06{
   background: url("../img/unKilo.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.vid07{
+  background: url("../img/huevosFritos.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
