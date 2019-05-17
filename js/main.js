@@ -18,13 +18,9 @@ var tlEnterTwo;
 var isTweening;
 
 
-
-
-
 //*********************//
 //**Horizontal Scroll**//
 //*********************//
-
 
 
 //*****************//
@@ -175,6 +171,26 @@ $('.lightbox_trigger01').click(function(e) {
   $("body").on('click touchstart', '#lightbox06', function() {
     $('#lightbox06').hide();
     $('#lightbox06 iframe').attr('src', '');
+	});
+	
+
+	$('.lightbox_trigger07').click(function(e) {
+  	e.preventDefault();
+  	if ($('#lightbox07').length > 0) {
+  		$('#lightbox07').show();
+      $('#lightbox07 iframe').attr('src', 'https://player.vimeo.com/video/269386603?autoplay=1&color=000&title=0&byline=0&portrait=0');
+  	} else {
+  		var lightbox =
+  		'<div id="lightbox07">' +
+  			'<p>Click to close</p>' +
+  			'<iframe class="vimeoFrame" src="https://player.vimeo.com/video/269386603?autoplay=1&color=000&title=0&byline=0&portrait=0" width="960" height="540" frameborder="0" data-vimeo-responsive="1" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>' +
+      '</div>'
+  		$('body').append(lightbox);
+  	}
+  });
+  $("body").on('click touchstart', '#lightbox07', function() {
+    $('#lightbox07').hide();
+    $('#lightbox07 iframe').attr('src', '');
   });
 
 
