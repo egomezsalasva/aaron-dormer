@@ -360,6 +360,7 @@ header{
 
 .huevosFritos{
   margin: 28vh auto 0 auto;
+  margin: 26vh auto 0 auto;
   display: block;
 }
 
@@ -522,6 +523,14 @@ header{
   transform: translateX(-50%) translateY(-50%);
 }
 
+.huevosFritosBadges{
+  margin: 7.1428vh auto 0;
+  img{
+    display: block;
+    margin: 0 auto;
+    width: 260px;
+  }
+}
 
 /* .arrowsFooter img{
   display: inline-block;
