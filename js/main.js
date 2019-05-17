@@ -10,28 +10,14 @@ var $homeTitle = $(".homeTitle");
 var $viewSite = $(".viewSite");
 var $viewSiteLine = $(".viewSite .line");
 var $imageVid = $(".imageVid");
-var $aboutContact = $(".aboutTitleContactContainer a");
-var $aboutContactLine = $(".aboutTitleContactContainer a .thickLine");
 var $hamburguerMenuLine = $(".hamburguerMenu .line");
 
 // Timeline Variables
 var tlEnter;
 var tlEnterTwo;
-var tlAboutContact;
 var isTweening;
 
 
-
-// About - Contact Button
-$($aboutContact).hover(
-  function() {
-    tlAboutContact = new TimelineMax();
-    tlAboutContact.to( $aboutContactLine, 0.4, { width: "100%", ease: Power1.easeInOut });
-  },
-  function() {
-    tlAboutContact.reverse();
-  }
-);
 
 
 
@@ -44,7 +30,6 @@ $($aboutContact).hover(
 //*****************//
 //**Video Overlay**//
 //*****************//
-
 
 
 $('.lightbox_trigger01').click(function(e) {
@@ -133,8 +118,6 @@ $('.lightbox_trigger01').click(function(e) {
   });
 
 
-
-
   $('.lightbox_trigger04').click(function(e) {
   	e.preventDefault();
   	if ($('#lightbox04').length > 0) {
@@ -155,8 +138,6 @@ $('.lightbox_trigger01').click(function(e) {
   });
 
 
-
-
   $('.lightbox_trigger05').click(function(e) {
   	e.preventDefault();
   	if ($('#lightbox05').length > 0) {
@@ -175,8 +156,6 @@ $('.lightbox_trigger01').click(function(e) {
     $('#lightbox05').hide();
     $('#lightbox05 iframe').attr('src', '');
   });
-
-
 
 
   $('.lightbox_trigger06').click(function(e) {
