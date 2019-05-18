@@ -13,175 +13,9 @@
 /*---Menus---*/
 /*------------*/
 @import '../scss/partials/shared/menus/_header';
+@import '../scss/partials/shared/menus/_mobileMenu';
 
 
-/* Mobile Menu */
-/*-------------*/
-
-.hamburguerMenu{
-  display: none;
-	position: fixed;
-	width: 50px;
-	height: 50px;
-  right: 25px;
-  top: 30px;
-  cursor: url("../img/cursorFinger.svg") 7 9, auto;
-  z-index: 200;
-}
-
-.hamburguerMenu .line {
-	width: 30px;
-	height: 2px;
-	background: #FCFDFF;
-}
-
-.hamburguerMenu .topLine {
-	position: absolute;
-	left: 10px;
-	top: 15px;
-}
-
-.hamburguerMenu .middleLine {
-	position: absolute;
-	left: 10px;
-	top: 24px;
-}
-
-.hamburguerMenu .bottomLine {
-	position: absolute;
-	left: 10px;
-	bottom: 15px;
-}
-
-/* Overlay Mobile Menu */
-/*---------------------*/
-
-/* Overlay style */
-.overlay {
-	position: fixed;
-	width: 100%;
-	height: 100%;
-	top: 0;
-	left: 0;
-	background: red;
-  z-index: 200;
-}
-
-/* Overlay closing cross */
-.overlay .overlay-close {
-	width: 50px;
-	height: 50px;
-	position: absolute;
-	right: 25px;
-	top: 27px;
-	overflow: hidden;
-	border: none;
-	background: url(../img/cross.svg) no-repeat center center;
-	text-indent: 200%;
-	color: transparent;
-	outline: none;
-	z-index: 300;
-  cursor: url("../img/cursorFinger.svg") 7 9, auto;
-}
-
-/* Menu style */
-.overlay nav {
-	text-align: center;
-	position: relative;
-	top: 50%;
-	height: calc(100% / 3);
-	-webkit-transform: translateY(-50%);
-	transform: translateY(-50%);
-}
-
-.overlay ul {
-	list-style: none;
-	padding: 0;
-	margin: 0 auto;
-	display: inline-block;
-}
-
-.overlay ul li {
-	display: block;
-	height: 20%;
-	/* height: calc(100% / 3);
-  height: 30%; */
-	min-height: 50px;
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
-}
-
-.overlay ul li a {
-	font-size: 28px;
-  font-size: 50px;
-  line-height: 90px;
-	font-weight: 300;
-	display: block;
-	color: #000;
-	-webkit-transition: color 0.2s;
-	transition: color 0.2s;
-  text-decoration: none;
-}
-
-.overlay ul li a:hover,
-.overlay ul li a:focus {
-	color: #000;
-}
-
-.container {
-	/* overflow-x: hidden; */
-	-webkit-transition: -webkit-transform 0.5s;
-	transition: transform 0.5s;
-}
-
-
-.container.overlay-open {
-	/* -webkit-transform: translateX(50%);
-  -webkit-transform: translateX(0%);
-	transform: translateX(50%);
-  transform: translateX(0%); */
-}
-
-.container::after {
-	content: '';
-	opacity: 0;
-	visibility: hidden;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: rgba(252,253,255,0.90);
-	-webkit-transition: opacity 0.5s, visibility 0s 0.5s;
-	transition: opacity 0.5s, visibility 0s 0.5s;
-}
-
-.container.overlay-open::after {
-	visibility: visible;
-	opacity: 1;
-	-webkit-transition: opacity 0.5s;
-	transition: opacity 0.5s;
-}
-
-.overlay-contentpush {
-	background: #FCFDFF;
-	visibility: hidden;
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
-	-webkit-transform: translateX(-100%);
-	transform: translateX(-100%);
-	-webkit-transition: -webkit-transform 0.5s, visibility 0s 0.5s;
-	transition: transform 0.5s, visibility 0s 0.5s;
-}
-
-.overlay-contentpush.open {
-	visibility: visible;
-	-webkit-transform: translateX(0%);
-	transform: translateX(0%);
-	-webkit-transition: -webkit-transform 0.5s;
-	transition: transform 0.5s;
-  z-index: 250;
-}
 
 /*----------*/
 /*---Home---*/
@@ -878,18 +712,6 @@
 /*---Films Media----*/
 /*------------------*/
 
-@media (max-width: 1025px) {
-
-  .deskNav{
-    display: none;
-  }
-
-  .hamburguerMenu{
-    display: block;
-  }
-
-}
-
 @media (max-width: 960px) {
 
   .slideshowList{
@@ -954,7 +776,7 @@
     display: none;
   }
 
-  #lightbox iframe, #lightbox02 iframe, #lightbox03 iframe, #lightbox04 iframe{
+  #lightbox iframe, #lightbox02 iframe, #lightbox03 iframe, #lightbox04 iframe, #lightbox05 iframe, #lightbox06 iframe, #lightbox07 iframe{
     width: 480px;
     height: 270px;
     transform: translate(-50%, -50%);
@@ -997,7 +819,7 @@
     top: calc(35% + 9vw + 1vw);
   }
 
-  #lightbox iframe, #lightbox02 iframe, #lightbox03 iframe, #lightbox04 iframe{
+  #lightbox iframe, #lightbox02 iframe, #lightbox03 iframe, #lightbox04 iframe, #lightbox05 iframe, #lightbox06 iframe, #lightbox07 iframe{
     width: 320px;
     height: 180px;
     transform: translate(-50%, -50%);
