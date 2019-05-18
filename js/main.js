@@ -6,9 +6,6 @@
 
 
 // Selectors
-var $homeTitle = $(".homeTitle");
-var $viewSite = $(".viewSite");
-var $viewSiteLine = $(".viewSite .line");
 var $imageVid = $(".imageVid");
 var $hamburguerMenuLine = $(".hamburguerMenu .line");
 
@@ -197,18 +194,6 @@ $('.lightbox_trigger01').click(function(e) {
 
 
 
-  //*****************//
-  //**Dissapear Scroll Nav**//
-  //*****************//
-
-  $(window).bind('scroll', function() {
-     if ($(window).scrollTop() > $(window).height()) {
-         $('header').hide();
-     }
-     else {
-         $('header').show();
-     }
-});
 
 //***************************//
 //**Change Color Scroll Nav**//
@@ -227,10 +212,13 @@ $(window).bind('scroll', function() {
 //**Arrows in Film**//
 //***************************//
 
-// if($(".container").scrollLeft() === 0){
+var cunt = $(".slideshowList").scrollLeft;
+console.log(cunt);
+
+// if($('container') === 0){
 //   $(".arrowFooterLeft").hide();
 // } else{
-// $(".arrowFooterLeft").show();
+// 	$(".arrowFooterLeft").show();
 // }
 
 $('.arrowFooterRight').click(function() {
