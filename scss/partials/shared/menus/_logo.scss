@@ -1,0 +1,40 @@
+
+//LOGO// 
+.logo {
+
+    position: fixed;
+    left: 50px;
+    top: 30px;
+
+    a {
+
+        text-decoration: none;
+
+        h2{
+            font-family: 'Rokkitt', serif;
+            font-weight: 400;
+            font-size: 28px;
+            line-height: 32px;
+            color: #FAFCFF;
+            @media (max-width: 960px) {
+            position: fixed;
+            left: 25px;
+            }
+        }
+
+        p{
+            top: 68px;
+            font-weight: 400;
+            font-size: 1.2em;
+            line-height: 12px;
+            color: #FAFCFF;
+            text-decoration: none;
+            @media (max-width: 960px) {
+            position: fixed;
+            left: 25px;
+            top: 63px;
+            }
+        }
+        
+    }
+}

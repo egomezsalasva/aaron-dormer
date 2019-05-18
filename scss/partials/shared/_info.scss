@@ -1,0 +1,29 @@
+/*---------------*/
+/*---Variables---*/
+/*---------------*/
+
+/*---Colours---*/
+/*-------------*/
+$black: #000;
+$white: #FAFCFF;
+
+
+/*---Fonts---*/
+/*-------------*/
+$font-stack: 'Poppins', sans-serif;
+$font-stack-display: 'Rokkitt', serif;
+
+
+
+
+/*---------------*/
+/*---Mixins------*/
+/*---------------*/
+
+@mixin lineHeader {
+  position: absolute;
+  height: 2px;
+  left: 0;
+  bottom: 0;
+  background: $white;
+}
