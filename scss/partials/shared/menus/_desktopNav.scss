@@ -3,18 +3,20 @@
 .deskNav{
     position: fixed;
     right: 50px;
+    @media (max-width: 1025px) {
+        display: none;
+    }
 
     ul {
         margin: 0;
     }
-
+    
     a {
         position: relative;
         display: inline-block;
         text-decoration: none;
         margin: 2px 10px;
         padding: 4px;
-
         li{
             text-decoration: none;
             list-style: none;
@@ -22,7 +24,6 @@
             color: #FCFDFF;
             line-height: 20px;
         }
-
         .line{
             position: absolute;
             height: 2px;
@@ -31,7 +32,6 @@
             bottom: 0;
             background: #FCFDFF;
         }
-
         .lineActive{
             position: absolute;
             height: 2px;
