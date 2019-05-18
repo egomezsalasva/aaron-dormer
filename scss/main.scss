@@ -1,117 +1,19 @@
 /*-------------*/
 /*---Globals---*/
 /*-------------*/
+@import '../scss/partials/shared/_info';
+@import '../scss/partials/shared/_globals';
 
-body{
-  font-family: 'Poppins', sans-serif;
-  font-weight: 500;
-  font-size: 10px;
-  text-rendering: optimizeLegibility;
-  letter-spacing: 0.02em;
-  /* cursor: url("../img/cursorRec.svg") 10 7, auto; */
-  cursor: url("../img/cursorCirc.svg") 8 8, auto;
-  background: #000;
-}
-
-a{
-  cursor: url("../img/cursorFinger.svg") 7 9, auto;
-}
-
-h1, h2, h3, p{
-  margin: 0;
-}
-
-.container{
-    min-height: 100vh;
-    height: 100%;
-    min-width: 100vw;
-    width: 100%;
-    background: #000;
-    margin: 0;
-    overflow-y: hidden;
-}
-
-header{
-  position: fixed;
-  top: 40px;
-  height: 32px;
-  .logo{
-    position: fixed;
-    left: 50px;
-    top: 30px;
-    a{
-      text-decoration: none;
-      h2{
-        font-family: 'Rokkitt', serif;
-        font-weight: 400;
-        font-size: 28px;
-        line-height: 32px;
-        color: #FAFCFF;
-        @media (max-width: 960px) {
-          position: fixed;
-          left: 25px;
-        }
-      }
-      p{
-        top: 68px;
-        font-weight: 400;
-        font-size: 1.2em;
-        line-height: 12px;
-        color: #FAFCFF;
-        text-decoration: none;
-        @media (max-width: 960px) {
-          position: fixed;
-          left: 25px;
-          top: 63px;
-        }
-      }
-    }
-  }
-}
+/*------------*/
+/*---Shared---*/
+/*------------*/
+@import '../scss/partials/shared/_shared';
 
 
-.deskNav{
-  position: fixed;
-  right: 50px;
-}
+/*---Menus---*/
+/*------------*/
+@import '../scss/partials/shared/menus/_header';
 
-.deskNav ul{
-  margin: 0;
-}
-
-.deskNav a{
-  position: relative;
-  display: inline-block;
-  text-decoration: none;
-  margin: 2px 10px;
-  padding: 4px;
-}
-
-.deskNav a li{
-  text-decoration: none;
-  list-style: none;
-  font-size: 1.4em;
-  color: #FCFDFF;
-  line-height: 20px;
-}
-
-.deskNav a .line{
-  position: absolute;
-  height: 2px;
-  width: 0%;
-  left: 0;
-  bottom: 0;
-  background: #FCFDFF;
-}
-
-.deskNav a .lineActive{
-  position: absolute;
-  height: 2px;
-  width: 100%;
-  left: 0;
-  bottom: 0;
-  background: #FCFDFF;
-}
 
 /* Mobile Menu */
 /*-------------*/
