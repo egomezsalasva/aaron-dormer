@@ -1,0 +1,12 @@
+/*------------*/
+/*---Header---*/
+/*------------*/
+
+header {
+  position: fixed;
+  top: 40px;
+  height: 32px;
+
+  @import '../menus/_logo';
+  @import '../menus/_desktopNav';
+}
