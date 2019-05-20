@@ -1,10 +1,5 @@
 'use strict'
 
-//**************//
-//**Animations**//
-//**************//
-
-
 // Selectors
 var $imageVid = $(".imageVid");
 var $hamburguerMenuLine = $(".hamburguerMenu .line");
@@ -13,11 +8,6 @@ var $hamburguerMenuLine = $(".hamburguerMenu .line");
 var tlEnter;
 var tlEnterTwo;
 var isTweening;
-
-
-//*********************//
-//**Horizontal Scroll**//
-//*********************//
 
 
 //*****************//
@@ -192,45 +182,15 @@ $('.lightbox_trigger01').click(function(e) {
 
 
 
-
-
-
 //***************************//
 //**Change Color Scroll Nav**//
 //***************************//
 
 $(window).bind('scroll', function() {
-   if ($(window).scrollTop() > $(window).height() - 50) {
-       TweenMax.to($hamburguerMenuLine, 0.4, {background:"#000"});
-   }
-   else {
-       TweenMax.to($hamburguerMenuLine, 0.4, {background:"#fff"});
-   }
-});
-
-//***************************//
-//**Arrows in Film**//
-//***************************//
-
-var cunt = $(".slideshowList").scrollLeft;
-console.log(cunt);
-
-// if($('container') === 0){
-//   $(".arrowFooterLeft").hide();
-// } else{
-// 	$(".arrowFooterLeft").show();
-// }
-
-$('.arrowFooterRight').click(function() {
-  event.preventDefault();
-  $('.container').animate({
-    scrollLeft: "+=300"
-  }, "slow");
-});
-
-$('.arrowFooterLeft').click(function() {
-  event.preventDefault();
-  $('.container').animate({
-    scrollLeft: "-=300"
-  }, "slow");
+  if ($(window).scrollTop() > $(window).height() - 50) {
+  	TweenMax.to($hamburguerMenuLine, 0.4, {background:"#000"});
+  }
+  else {
+  	TweenMax.to($hamburguerMenuLine, 0.4, {background:"#fff"});
+  }
 });
