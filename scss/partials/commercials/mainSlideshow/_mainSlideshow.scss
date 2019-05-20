@@ -1,3 +1,85 @@
 /*--------------------*/
 /*---Main Slideshow---*/
 /*--------------------*/
+
+.slideshowList{
+    margin: calc(8px + 32px) 0 0 0;
+    padding: 0;
+    white-space: nowrap;
+    @media (max-width: 960px){
+        margin: 110px 0 0 0;
+        padding: 0;
+        white-space: nowrap;
+    };
+
+    .slideshowItem{
+        margin: 28vh 0 0 0;
+        display: inline-block;
+        width: 36.541471vw;
+        overflow: hidden;
+        color: #FCFDFF;
+        @media (max-width: 960px){
+            position: relative;
+            margin: 0;
+            display: block;
+            width: 100vw;
+            overflow: hidden;
+            color: #FCFDFF;
+            height: 35vh;
+        }
+        
+        .imageVidContainer{
+            display: inline-block;
+            position: relative;
+            width: 100%;
+            height: 100%;
+
+            .imageVid{
+                width: 100%;
+                height: 28.6123033vh;
+                min-height: 200px;
+                cursor: url("../img/cursorFinger.svg") 7 9, auto;
+            };
+            //Images from Slideshow 
+            @import '../mainSlideshow/_imageVid';
+            .overlayVid{
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                display: block;
+                background: #FCFDFF;
+                opacity: 0;
+                cursor: url("../img/cursorFinger.svg") 7 9, auto;
+            };
+            .vimeoIcon{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-32.5px, -20px);
+                opacity: 0;
+                cursor: url("../img/cursorFinger.svg") 7 9, auto;
+            };
+        };
+        h3{
+            font-family: 'Rokkitt', serif;
+            font-weight: 400;
+            font-size: 2em;
+            letter-spacing: 0px;
+            margin: 30px 0 0 25px;
+        };
+        p{
+            opacity: 0.66;
+            font-size: 1.4em;
+            font-weight: 300;
+            color: #FCFDFF;
+            margin: 0 0 0 25px;
+        };
+    };
+};
+
+/*---Lightbox---*/
+/*--------------*/
+
+@import '../mainSlideshow/_vidLightbox';
