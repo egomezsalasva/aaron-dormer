@@ -18,9 +18,20 @@
         height: 600px;
         height: 86vh;
         display: inline-block;
+        @media (max-width: 960px) {
+            margin: 0 auto;
+            width: 440px;
+            width: 80vw;
+            height: 600px;
+            height: 86vh;
+            display: none;
+        }
     }
     .containerContactDetails {
         display: inline-block;
+        @media (max-width: 960px) {
+            display: block;
+        }
 
         h2{
             font-family: 'Rokkitt', serif;
@@ -35,6 +46,13 @@
             left: 30px;
             left: 2.34741784vw;
             letter-spacing: -0.004em;
+            @media (max-width: 960px) {
+                font-size: 180px;
+                font-size: 14vw;
+                position: static;
+                margin: 0 auto;
+                text-align: center;
+            }
         }
         p{
             font-size: 14px;
@@ -45,6 +63,12 @@
             top: -32.9041488vh;
             left: 50px;
             left: 3.91236307vw;
+            @media (max-width: 960px) {
+                font-size: 14px;
+                text-align: center;
+                position: static;
+            }
+
             span{
                 color: #575757;
             }
