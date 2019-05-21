@@ -1,0 +1,10 @@
+/*-------------*/
+/*---Contact---*/
+/*-------------*/
+
+.contactContainer{
+    background: #FCFDFF;
+
+    @import './_contactTopFold';
+    @import './_contactPresentation';
+}

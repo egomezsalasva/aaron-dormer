@@ -1,0 +1,53 @@
+
+/*---Contact Top Fold--*/
+/*---------------------*/
+
+.contactPresentation{
+    position: relative;
+    margin: 140px auto 250px;
+    /* margin: 20.6008583691vw auto 0; */
+
+    .fotoContactDetails{
+        margin: 0 0 0 120px;
+        background: url("../img/contactDetailsFoto.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 440px;
+        width: 34vw;
+        height: 600px;
+        height: 86vh;
+        display: inline-block;
+    }
+    .containerContactDetails {
+        display: inline-block;
+
+        h2{
+            font-family: 'Rokkitt', serif;
+            font-weight: 400;
+            font-size: 180px;
+            font-size: 14vw;
+            color: #000000;
+            position: relative;
+            top: calc(-330px + 80px);
+            top: -250px;
+            top: -35.7653791vh;
+            left: 30px;
+            left: 2.34741784vw;
+            letter-spacing: -0.004em;
+        }
+        p{
+            font-size: 14px;
+            color: #000000;
+            position: relative;
+            top: calc(-330px + 80px + 30px);
+            top: -230px;
+            top: -32.9041488vh;
+            left: 50px;
+            left: 3.91236307vw;
+            span{
+                color: #575757;
+            }
+        }
+    }
+}
