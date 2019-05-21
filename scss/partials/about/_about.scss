@@ -1,0 +1,10 @@
+/*-----------*/
+/*---About--*/
+/*-----------*/
+
+.aboutContainer{
+    background: #FCFDFF;
+ 
+    @import './_aboutTopFold';
+    @import './_aboutPresentation';
+}
