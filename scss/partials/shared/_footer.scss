@@ -1,0 +1,36 @@
+/*------------*/
+/*---Footer---*/
+/*------------*/
+
+.footerFollow{
+    position: absolute;
+    color: #A5A6A8;
+    bottom: 30px;
+    right: 50px;
+    font-size: 14px;
+    a{
+        color: #A5A6A8;
+        text-decoration: none;
+        transition: color 0.4s;
+        padding: 15px 0;
+        &:hover{
+            color: #FCFDFF;
+        }
+    }
+}
+
+.contactContainer{
+    
+    .footerContact{
+        bottom: -220px;
+        color: #555657;
+
+        a{
+            color: #555657;
+
+            &:hover{
+                color: #000;
+            }
+        }
+    }
+}
