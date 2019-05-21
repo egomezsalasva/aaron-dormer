@@ -1,8 +1,8 @@
 /*-------------*/
 /*---Globals---*/
 /*-------------*/
-@import '../scss/partials/shared/_info';
-@import '../scss/partials/shared/_globals';
+@import './partials/shared/_info';
+@import './partials/shared/_globals';
 
 
 /*------------*/
@@ -12,6 +12,8 @@
 /*---Menus---*/
 @import './partials/shared/menus/_header';
 @import './partials/shared/menus/_mobileMenu';
+/*---Footer---*/
+@import './partials/shared/_footer';
 
 
 /*-----------------*/
@@ -34,223 +36,11 @@
 @import './partials/about/_about';
 
 
-.aboutPresentation{
-  margin: 200px auto 210px;
-  /* margin: 28.6vh auto 30vh; */
-  margin: 28.6vh auto 17vh;
-}
-
-.aboutParagraphs p{
-  font-family: 'Rokkitt', serif;
-  font-weight: 400;
-  /* font-size: 40px; */
-  font-size: 20px;
-  /* font-size: 3.91236306729vw; */
-  color: #000;
-  line-height: 24px;
-  /* line-height: 3.83411580595vw; */
-  width: 61vw;
-  width: 43vw;
-  margin: 20px auto 21px;
-  /* margin: 28.6vh auto 30vh; */
-}
-
-.aboutPDF .aboutParagraphs p{
-  font-size: 18px;
-  font-style: italic;
-}
-
-.aboutParagraphs a{
-  position: relative;
-  display: block;
-  width: 61vw;
-  width: 38vw;
-  margin: 50px auto 21px;
-  text-align: center;
-  text-decoration: none;
-}
-
-.aboutParagraphs a h2{
-  font-family: 'Rokkitt', serif;
-  font-weight: 400;
-  font-size: 40px;
-  /* font-size: 3.91236306729vw; */
-  color: #000;
-  line-height: 50px;
-}
-
-.aboutPDF{
-  margin: 200px auto 210px;
-  margin: 0vh auto 30vh;
-}
-
-.aboutContact{
-  position: relative;
-  width: 100vw;
-  height: 80vh;
-  background: #000;
-}
-
-.aboutTitleContactContainer {
-  width: 70%;
-  margin: 0 auto;
-  padding-top: 20.5vh;
-  text-align: center;
-}
-
-.aboutTitleContactContainer a{
-  position: relative;
-  display: inline-block;
-  color: #FCFDFF;
-  font-family: 'Rokkitt', serif;
-  font-weight: 400;
-  font-size: 180px;
-  font-size: 14vw;
-  line-height: 180px;
-  line-height: 13.75vw;
-  letter-spacing: -0.004em;
-  text-decoration: none;
-}
-
-.aboutTitleContactContainer a .thickLine{
-  position: absolute;
-  width: 0%;
-  height: 11px;
-  bottom: 0;
-  left: 0;
-  background: #FCFDFF;
-}
-
-.aboutParagraphs a .pdfLine{
-  position: absolute;
-  width: 0%;
-  height: 4px;
-  bottom: 0;
-  left: 0;
-  background: black;
-}
-
-.aboutEmailContactContainer{
-  width: 60%;
-  margin: 20px auto 0;
-
-}
-
-.aboutEmailContactContainer p{
-  color: #FCFDFF;
-  text-align: right;
-  opacity: 0.66;
-  font-size: 14px;
-  line-height: 27px;
-}
-
-.footerFollow{
-  position: absolute;
-  color: #A5A6A8;
-  bottom: 30px;
-  right: 50px;
-  font-size: 14px;
-}
-
-.footerFollow a{
-  color: #A5A6A8;
-  text-decoration: none;
-  transition: color 0.4s;
-  padding: 15px 0;
-}
-
-.footerFollow a:hover{
-  color: #FCFDFF;
-}
-
-/*-----------*/
+/*------------*/
 /*---Contact--*/
-/*-----------*/
+/*------------*/
+@import './partials/contact/_contact';
 
-.contactContainer{
-  background: #FCFDFF;
-}
-
-.contactTopFold{
-  width: 100vw;
-  height: 100vh;
-  background: #000;
-}
-
-.imageContactBg{
-  width: 100vw;
-  height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url("../img/contactFoto.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.contactPresentation{
-  position: relative;
-  margin: 140px auto 250px;
-  /* margin: 20.6008583691vw auto 0; */
-}
-
-.fotoContactDetails{
-  margin: 0 0 0 120px;
-  background: url("../img/contactDetailsFoto.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 440px;
-  width: 34vw;
-  height: 600px;
-  height: 86vh;
-  display: inline-block;
-}
-
-.containerContactDetails {
-  display: inline-block;
-}
-
-.containerContactDetails h2{
-  font-family: 'Rokkitt', serif;
-  font-weight: 400;
-  font-size: 180px;
-  font-size: 14vw;
-  color: #000000;
-  position: relative;
-  top: calc(-330px + 80px);
-  top: -250px;
-  top: -35.7653791vh;
-  left: 30px;
-  left: 2.34741784vw;
-  letter-spacing: -0.004em;
-}
-
-.containerContactDetails p{
-  font-size: 14px;
-  color: #000000;
-  position: relative;
-  top: calc(-330px + 80px + 30px);
-  top: -230px;
-  top: -32.9041488vh;
-  left: 50px;
-  left: 3.91236307vw;
-}
-
-.containerContactDetails p span{
-  color: #575757;
-}
-
-.contactContainer .footerContact{
-  bottom: -220px;
-  color: #555657;
-}
-
-.contactContainer .footerContact a{
-  color: #555657;
-}
-
-.contactContainer .footerFollow a:hover{
-  color: #000;
-}
 
 
 /*--------------------*/
@@ -288,60 +78,3 @@
 
 }
 
-/*--------------------*/
-/*---About Media----*/
-/*--------------------*/
-
-@media (max-width: 1025px) {
-  .aboutParagraphs p{
-    font-size: 30px;
-    line-height: 33px;
-    width: 50vw;
-  }
-}
-
-@media (max-width: 960px){
-  .aboutParagraphs p{
-    font-size: 28px;
-    line-height: 30px;
-    width: 60vw;
-  }
-
-}
-
-@media (max-width: 600px){
-  .aboutParagraphs p{
-    font-size: 26px;
-    /* font-size: 5.40541vw; */
-    font-size: 28px;
-    /* font-size: 5.40541vw; */
-    width: 80vw;
-  }
-  li.cvHead{
-    display: none;
-  }
-  .cvContainer {
-    width: calc(100% - 44px);
-    margin-left: 22px;
-  }
-  .cvTab{
-    transform: translate3d(0px, 0px, 0px);
-  }
-  .aboutTitleContactContainer {
-    width: 80%;
-  }
-  .aboutTitleContactContainer a{
-    font-size: 19vw;
-    line-height: 19vw;
-  }
-  .aboutTitleContactContainer a .thickLine{
-    height: 5px;
-  }
-  .aboutEmailContactContainer{
-    width: 80%;
-  }
-  .aboutEmailContactContainer p{
-    font-size: 3.10811vw;
-    line-height: 6vw;
-  }
-}
