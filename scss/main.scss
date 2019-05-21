@@ -42,39 +42,3 @@
 @import './partials/contact/_contact';
 
 
-
-/*--------------------*/
-/*---Contact Media----*/
-/*--------------------*/
-
-@media (max-width: 960px) {
-
-  .fotoContactDetails{
-    margin: 0 auto;
-    width: 440px;
-    width: 80vw;
-    height: 600px;
-    height: 86vh;
-    display: none;
-  }
-
-  .containerContactDetails {
-    display: block;
-  }
-
-  .containerContactDetails h2{
-    font-size: 180px;
-    font-size: 14vw;
-    position: static;
-    margin: 0 auto;
-    text-align: center;
-  }
-
-  .containerContactDetails p{
-    font-size: 14px;
-    text-align: center;
-    position: static;
-  }
-
-}
-
