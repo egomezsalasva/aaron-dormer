@@ -1,0 +1,69 @@
+
+/*---About PDF---*/
+/*---------------*/
+
+.aboutContact{
+    position: relative;
+    width: 100vw;
+    height: 80vh;
+    background: #000;
+
+    .aboutTitleContactContainer {
+        width: 70%;
+        margin: 0 auto;
+        padding-top: 20.5vh;
+        text-align: center;
+        @media (max-width: 600px){
+            width: 80%;
+        }
+
+        a{
+            position: relative;
+            display: inline-block;
+            color: #FCFDFF;
+            font-family: 'Rokkitt', serif;
+            font-weight: 400;
+            font-size: 180px;
+            font-size: 14vw;
+            line-height: 180px;
+            line-height: 13.75vw;
+            letter-spacing: -0.004em;
+            text-decoration: none;
+            @media (max-width: 600px){
+                font-size: 19vw;
+                line-height: 19vw;
+            }
+
+            .thickLine{
+                position: absolute;
+                width: 0%;
+                height: 11px;
+                bottom: 0;
+                left: 0;
+                background: #FCFDFF;
+                @media (max-width: 600px){
+                    height: 5px;
+                }
+            }
+        }
+    }
+    .aboutEmailContactContainer{
+        width: 60%;
+        margin: 20px auto 0;
+        @media (max-width: 600px){
+            width: 80%;
+        }
+
+        p{
+            color: #FCFDFF;
+            text-align: right;
+            opacity: 0.66;
+            font-size: 14px;
+            line-height: 27px;
+            @media (max-width: 600px){
+                font-size: 3.10811vw;
+                line-height: 6vw;
+            }
+        }
+    }
+}

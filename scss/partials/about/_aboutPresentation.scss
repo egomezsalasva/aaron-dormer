@@ -6,7 +6,9 @@
     margin: 200px auto 210px;
     /* margin: 28.6vh auto 30vh; */
     margin: 28.6vh auto 17vh;
+
     .aboutParagraphs{
+
         p{
             font-family: 'Rokkitt', serif;
             font-weight: 400;
@@ -20,8 +22,23 @@
             width: 43vw;
             margin: 20px auto 21px;
             /* margin: 28.6vh auto 30vh; */
-            font-size: 18px;
-            font-style: italic;
+            @media (max-width: 1025px){
+                font-size: 30px;
+                line-height: 33px;
+                width: 50vw;
+            }
+            @media (max-width: 960px){
+                font-size: 28px;
+                line-height: 30px;
+                width: 60vw;
+            }
+            @media (max-width: 600px){
+                font-size: 26px;
+                /* font-size: 5.40541vw; */
+                font-size: 28px;
+                /* font-size: 5.40541vw; */
+                width: 80vw;
+            }
         }
     }
 }

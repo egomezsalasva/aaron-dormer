@@ -1,0 +1,64 @@
+
+/*---About PDF---*/
+/*---------------*/
+
+.aboutPDF{
+    margin: 200px auto 210px;
+    margin: 0vh auto 30vh;
+
+    .aboutParagraphs{
+        p{
+            font-family: 'Rokkitt', serif;
+            font-weight: 400;
+            color: #000;
+            line-height: 24px;
+            width: 43vw;
+            margin: 20px auto 21px;
+            font-size: 18px;
+            font-style: italic;
+            @media (max-width: 1025px) {
+                font-size: 30px;
+                line-height: 33px;
+                width: 50vw;
+            }
+            @media (max-width: 960px){
+                font-size: 28px;
+                line-height: 30px;
+                width: 60vw;
+            }
+            @media (max-width: 600px){
+                font-size: 26px;
+                /* font-size: 5.40541vw; */
+                font-size: 28px;
+                /* font-size: 5.40541vw; */
+                width: 80vw;
+            }
+        }
+        a{
+            position: relative;
+            display: block;
+            width: 61vw;
+            width: 38vw;
+            margin: 50px auto 21px;
+            text-align: center;
+            text-decoration: none;
+
+            h2{
+                font-family: 'Rokkitt', serif;
+                font-weight: 400;
+                font-size: 40px;
+                /* font-size: 3.91236306729vw; */
+                color: #000;
+                line-height: 50px;
+            }
+            .pdfLine{
+                position: absolute;
+                width: 0%;
+                height: 4px;
+                bottom: 0;
+                left: 0;
+                background: black;
+            }
+        }
+    }
+}
