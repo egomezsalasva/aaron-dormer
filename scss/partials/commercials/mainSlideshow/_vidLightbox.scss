@@ -26,10 +26,33 @@
         margin-top: 40px;
         cursor: url("../img/cursorFinger.svg") 7 9, auto;
         z-index: 1000;
-    };
+    }
+    iframe{
+        @media (max-width: 960px) {
+            width: 480px;
+            height: 270px;
+            transform: translate(-50%, -50%);
+        }
+        @media (max-width: 500px) {
+            width: 320px;
+            height: 180px;
+            transform: translate(-50%, -50%);
+        }
+    }
     .vimeoFrame{
         position: fixed;
         top: calc(50vh - 270px);
         left: calc(50vw - 480px);
-    };
-};
+        @media (max-width: 960px) {
+            position: fixed;
+            top: calc(50vh);
+            left: calc(50vw);
+        }
+        @media (max-width: 500px) {
+            position: fixed;
+            top: calc(50vh);
+            left: calc(50vw);
+        }
+    }
+    
+}
