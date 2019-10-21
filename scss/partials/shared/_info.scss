@@ -1,6 +1,23 @@
+/*------------------*/
+/*---Font Imports---*/
+/*------------------*/
+
+@font-face {
+  font-family: 'Swis721 BT';
+  src: url('Swiss721BT-Roman.eot'); /* IE9 Compat Modes */
+  src: url('Swiss721BT-Roman.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Swiss721BT-Roman.woff2') format('woff2'), /* Super Modern Browsers */
+       url('Swiss721BT-Roman.woff') format('woff'), /* Pretty Modern Browsers */
+       url('Swiss721BT-Roman.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('Swiss721BT-Roman.svg#Swiss721BT-Roman') format('svg'); /* Legacy iOS */
+}
+
+
+
 /*---------------*/
 /*---Variables---*/
 /*---------------*/
+
 
 /*---Colours---*/
 /*-------------*/
@@ -16,8 +33,7 @@ $grey: #575757;
 /*-------------*/
 $font-stack: 'Poppins', sans-serif;
 //$font-stack-display: 'Rokkitt', serif;
-$font-stack-display: 'Swiss721BT-Roman', sans-serif;
-
+$font-stack-display: 'Swis721 BT', 'Poppins', sans-serif;
 
 
 

@@ -1,6 +1,17 @@
 /*-------------*/
 /*---Globals---*/
 /*-------------*/
+/*------------------*/
+/*---Font Imports---*/
+/*------------------*/
+@font-face {
+  font-family: 'Swis721 BT';
+  src: url("Swiss721BT-Roman.eot");
+  /* IE9 Compat Modes */
+  src: url("Swiss721BT-Roman.eot?#iefix") format("embedded-opentype"), url("Swiss721BT-Roman.woff2") format("woff2"), url("Swiss721BT-Roman.woff") format("woff"), url("Swiss721BT-Roman.ttf") format("truetype"), url("Swiss721BT-Roman.svg#Swiss721BT-Roman") format("svg");
+  /* Legacy iOS */
+}
+
 /*---------------*/
 /*---Variables---*/
 /*---------------*/
@@ -11,6 +22,17 @@
 /*---------------*/
 /*---Mixins------*/
 /*---------------*/
+/*------------------*/
+/*---Font Imports---*/
+/*------------------*/
+@font-face {
+  font-family: 'Swis721 BT';
+  src: url("Swiss721BT-Roman.eot");
+  /* IE9 Compat Modes */
+  src: url("Swiss721BT-Roman.eot?#iefix") format("embedded-opentype"), url("Swiss721BT-Roman.woff2") format("woff2"), url("Swiss721BT-Roman.woff") format("woff"), url("Swiss721BT-Roman.ttf") format("truetype"), url("Swiss721BT-Roman.svg#Swiss721BT-Roman") format("svg");
+  /* Legacy iOS */
+}
+
 /*---------------*/
 /*---Variables---*/
 /*---------------*/
@@ -46,6 +68,17 @@ h1, h2, h3, p {
 /*------------*/
 /*---Shared---*/
 /*------------*/
+/*------------------*/
+/*---Font Imports---*/
+/*------------------*/
+@font-face {
+  font-family: 'Swis721 BT';
+  src: url("Swiss721BT-Roman.eot");
+  /* IE9 Compat Modes */
+  src: url("Swiss721BT-Roman.eot?#iefix") format("embedded-opentype"), url("Swiss721BT-Roman.woff2") format("woff2"), url("Swiss721BT-Roman.woff") format("woff"), url("Swiss721BT-Roman.ttf") format("truetype"), url("Swiss721BT-Roman.svg#Swiss721BT-Roman") format("svg");
+  /* Legacy iOS */
+}
+
 /*---------------*/
 /*---Variables---*/
 /*---------------*/
@@ -77,6 +110,9 @@ header {
   position: fixed;
   top: 40px;
   height: 32px;
+  /*------------------*/
+  /*---Font Imports---*/
+  /*------------------*/
   /*---------------*/
   /*---Variables---*/
   /*---------------*/
@@ -87,6 +123,9 @@ header {
   /*---------------*/
   /*---Mixins------*/
   /*---------------*/
+  /*------------------*/
+  /*---Font Imports---*/
+  /*------------------*/
   /*---------------*/
   /*---Variables---*/
   /*---------------*/
@@ -97,6 +136,16 @@ header {
   /*---------------*/
   /*---Mixins------*/
   /*---------------*/
+}
+
+@font-face {
+  header {
+    font-family: 'Swis721 BT';
+    src: url("Swiss721BT-Roman.eot");
+    /* IE9 Compat Modes */
+    src: url("Swiss721BT-Roman.eot?#iefix") format("embedded-opentype"), url("Swiss721BT-Roman.woff2") format("woff2"), url("Swiss721BT-Roman.woff") format("woff"), url("Swiss721BT-Roman.ttf") format("truetype"), url("Swiss721BT-Roman.svg#Swiss721BT-Roman") format("svg");
+    /* Legacy iOS */
+  }
 }
 
 header .logo {
@@ -110,7 +159,7 @@ header .logo a {
 }
 
 header .logo a h2 {
-  font-family: "Swiss721BT-Roman", sans-serif;
+  font-family: "Swis721 BT", "Poppins", sans-serif;
   font-weight: 400;
   font-size: calc(28px * 0.9);
   line-height: 32px;
@@ -138,6 +187,16 @@ header .logo a p {
     position: fixed;
     left: 25px;
     top: 63px;
+  }
+}
+
+@font-face {
+  header {
+    font-family: 'Swis721 BT';
+    src: url("Swiss721BT-Roman.eot");
+    /* IE9 Compat Modes */
+    src: url("Swiss721BT-Roman.eot?#iefix") format("embedded-opentype"), url("Swiss721BT-Roman.woff2") format("woff2"), url("Swiss721BT-Roman.woff") format("woff"), url("Swiss721BT-Roman.ttf") format("truetype"), url("Swiss721BT-Roman.svg#Swiss721BT-Roman") format("svg");
+    /* Legacy iOS */
   }
 }
 
@@ -235,6 +294,17 @@ header .deskNav a .lineActive {
   position: absolute;
   left: 10px;
   bottom: 15px;
+}
+
+/*------------------*/
+/*---Font Imports---*/
+/*------------------*/
+@font-face {
+  font-family: 'Swis721 BT';
+  src: url("Swiss721BT-Roman.eot");
+  /* IE9 Compat Modes */
+  src: url("Swiss721BT-Roman.eot?#iefix") format("embedded-opentype"), url("Swiss721BT-Roman.woff2") format("woff2"), url("Swiss721BT-Roman.woff") format("woff"), url("Swiss721BT-Roman.ttf") format("truetype"), url("Swiss721BT-Roman.svg#Swiss721BT-Roman") format("svg");
+  /* Legacy iOS */
 }
 
 /*---------------*/
@@ -381,6 +451,17 @@ header .deskNav a .lineActive {
 }
 
 /*---Footer---*/
+/*------------------*/
+/*---Font Imports---*/
+/*------------------*/
+@font-face {
+  font-family: 'Swis721 BT';
+  src: url("Swiss721BT-Roman.eot");
+  /* IE9 Compat Modes */
+  src: url("Swiss721BT-Roman.eot?#iefix") format("embedded-opentype"), url("Swiss721BT-Roman.woff2") format("woff2"), url("Swiss721BT-Roman.woff") format("woff"), url("Swiss721BT-Roman.ttf") format("truetype"), url("Swiss721BT-Roman.svg#Swiss721BT-Roman") format("svg");
+  /* Legacy iOS */
+}
+
 /*---------------*/
 /*---Variables---*/
 /*---------------*/
@@ -430,6 +511,17 @@ header .deskNav a .lineActive {
 /*-----------------*/
 /*---Commercials---*/
 /*-----------------*/
+/*------------------*/
+/*---Font Imports---*/
+/*------------------*/
+@font-face {
+  font-family: 'Swis721 BT';
+  src: url("Swiss721BT-Roman.eot");
+  /* IE9 Compat Modes */
+  src: url("Swiss721BT-Roman.eot?#iefix") format("embedded-opentype"), url("Swiss721BT-Roman.woff2") format("woff2"), url("Swiss721BT-Roman.woff") format("woff"), url("Swiss721BT-Roman.ttf") format("truetype"), url("Swiss721BT-Roman.svg#Swiss721BT-Roman") format("svg");
+  /* Legacy iOS */
+}
+
 /*---------------*/
 /*---Variables---*/
 /*---------------*/
@@ -599,7 +691,7 @@ header .deskNav a .lineActive {
 }
 
 .slideshowList .slideshowItem h3 {
-  font-family: "Swiss721BT-Roman", sans-serif;
+  font-family: "Swis721 BT", "Poppins", sans-serif;
   font-weight: 400;
   font-size: calc(2em * 0.9);
   line-height: 1.4em;
@@ -830,6 +922,17 @@ header .deskNav a .lineActive {
 /*-----------*/
 /*---About--*/
 /*-----------*/
+/*------------------*/
+/*---Font Imports---*/
+/*------------------*/
+@font-face {
+  font-family: 'Swis721 BT';
+  src: url("Swiss721BT-Roman.eot");
+  /* IE9 Compat Modes */
+  src: url("Swiss721BT-Roman.eot?#iefix") format("embedded-opentype"), url("Swiss721BT-Roman.woff2") format("woff2"), url("Swiss721BT-Roman.woff") format("woff"), url("Swiss721BT-Roman.ttf") format("truetype"), url("Swiss721BT-Roman.svg#Swiss721BT-Roman") format("svg");
+  /* Legacy iOS */
+}
+
 /*---------------*/
 /*---Variables---*/
 /*---------------*/
@@ -845,6 +948,9 @@ header .deskNav a .lineActive {
 /*-----------*/
 .aboutContainer {
   background: #FCFDFF;
+  /*------------------*/
+  /*---Font Imports---*/
+  /*------------------*/
   /*---------------*/
   /*---Variables---*/
   /*---------------*/
@@ -857,6 +963,9 @@ header .deskNav a .lineActive {
   /*---------------*/
   /*---About Top Fold--*/
   /*-------------------*/
+  /*------------------*/
+  /*---Font Imports---*/
+  /*------------------*/
   /*---------------*/
   /*---Variables---*/
   /*---------------*/
@@ -869,6 +978,9 @@ header .deskNav a .lineActive {
   /*---------------*/
   /*---About Top Fold--*/
   /*-------------------*/
+  /*------------------*/
+  /*---Font Imports---*/
+  /*------------------*/
   /*---------------*/
   /*---Variables---*/
   /*---------------*/
@@ -881,6 +993,9 @@ header .deskNav a .lineActive {
   /*---------------*/
   /*---About PDF---*/
   /*---------------*/
+  /*------------------*/
+  /*---Font Imports---*/
+  /*------------------*/
   /*---------------*/
   /*---Variables---*/
   /*---------------*/
@@ -893,6 +1008,16 @@ header .deskNav a .lineActive {
   /*---------------*/
   /*---About PDF---*/
   /*---------------*/
+}
+
+@font-face {
+  .aboutContainer {
+    font-family: 'Swis721 BT';
+    src: url("Swiss721BT-Roman.eot");
+    /* IE9 Compat Modes */
+    src: url("Swiss721BT-Roman.eot?#iefix") format("embedded-opentype"), url("Swiss721BT-Roman.woff2") format("woff2"), url("Swiss721BT-Roman.woff") format("woff"), url("Swiss721BT-Roman.ttf") format("truetype"), url("Swiss721BT-Roman.svg#Swiss721BT-Roman") format("svg");
+    /* Legacy iOS */
+  }
 }
 
 .aboutContainer .aboutTopFold {
@@ -921,12 +1046,22 @@ header .deskNav a .lineActive {
 .aboutContainer .aboutTopFold .imageAboutBg .aboutTitleContainer h2 {
   display: inline-block;
   color: #FCFDFF;
-  font-family: "Swiss721BT-Roman", sans-serif;
+  font-family: "Swis721 BT", "Poppins", sans-serif;
   font-weight: 400;
   font-size: calc(14vw * 0.9);
   line-height: 14vw;
   letter-spacing: -0.004em;
   text-decoration: none;
+}
+
+@font-face {
+  .aboutContainer {
+    font-family: 'Swis721 BT';
+    src: url("Swiss721BT-Roman.eot");
+    /* IE9 Compat Modes */
+    src: url("Swiss721BT-Roman.eot?#iefix") format("embedded-opentype"), url("Swiss721BT-Roman.woff2") format("woff2"), url("Swiss721BT-Roman.woff") format("woff"), url("Swiss721BT-Roman.ttf") format("truetype"), url("Swiss721BT-Roman.svg#Swiss721BT-Roman") format("svg");
+    /* Legacy iOS */
+  }
 }
 
 .aboutContainer .aboutPresentation {
@@ -936,7 +1071,7 @@ header .deskNav a .lineActive {
 }
 
 .aboutContainer .aboutPresentation .aboutParagraphs p {
-  font-family: "Swiss721BT-Roman", sans-serif;
+  font-family: "Swis721 BT", "Poppins", sans-serif;
   font-weight: 400;
   /* font-size: 40px; */
   font-size: calc(20px * 0.9);
@@ -976,13 +1111,23 @@ header .deskNav a .lineActive {
   }
 }
 
+@font-face {
+  .aboutContainer {
+    font-family: 'Swis721 BT';
+    src: url("Swiss721BT-Roman.eot");
+    /* IE9 Compat Modes */
+    src: url("Swiss721BT-Roman.eot?#iefix") format("embedded-opentype"), url("Swiss721BT-Roman.woff2") format("woff2"), url("Swiss721BT-Roman.woff") format("woff"), url("Swiss721BT-Roman.ttf") format("truetype"), url("Swiss721BT-Roman.svg#Swiss721BT-Roman") format("svg");
+    /* Legacy iOS */
+  }
+}
+
 .aboutContainer .aboutPDF {
   margin: 200px auto 210px;
   margin: 0vh auto 30vh;
 }
 
 .aboutContainer .aboutPDF .aboutParagraphs p {
-  font-family: "Swiss721BT-Roman", sans-serif;
+  font-family: "Swis721 BT", "Poppins", sans-serif;
   font-weight: 400;
   color: #000;
   line-height: 24px;
@@ -1029,7 +1174,7 @@ header .deskNav a .lineActive {
 }
 
 .aboutContainer .aboutPDF .aboutParagraphs a h2 {
-  font-family: "Swiss721BT-Roman", sans-serif;
+  font-family: "Swis721 BT", "Poppins", sans-serif;
   font-weight: 400;
   font-size: calc(40px * 0.9);
   /* font-size: 3.91236306729vw; */
@@ -1044,6 +1189,16 @@ header .deskNav a .lineActive {
   bottom: 0;
   left: 0;
   background: #000;
+}
+
+@font-face {
+  .aboutContainer {
+    font-family: 'Swis721 BT';
+    src: url("Swiss721BT-Roman.eot");
+    /* IE9 Compat Modes */
+    src: url("Swiss721BT-Roman.eot?#iefix") format("embedded-opentype"), url("Swiss721BT-Roman.woff2") format("woff2"), url("Swiss721BT-Roman.woff") format("woff"), url("Swiss721BT-Roman.ttf") format("truetype"), url("Swiss721BT-Roman.svg#Swiss721BT-Roman") format("svg");
+    /* Legacy iOS */
+  }
 }
 
 .aboutContainer .aboutContact {
@@ -1070,7 +1225,7 @@ header .deskNav a .lineActive {
   position: relative;
   display: inline-block;
   color: #FCFDFF;
-  font-family: "Swiss721BT-Roman", sans-serif;
+  font-family: "Swis721 BT", "Poppins", sans-serif;
   font-weight: 400;
   font-size: calc(14vw * 0.9);
   line-height: calc(14vw * 0.9);
@@ -1129,6 +1284,17 @@ header .deskNav a .lineActive {
 /*------------*/
 /*---Contact--*/
 /*------------*/
+/*------------------*/
+/*---Font Imports---*/
+/*------------------*/
+@font-face {
+  font-family: 'Swis721 BT';
+  src: url("Swiss721BT-Roman.eot");
+  /* IE9 Compat Modes */
+  src: url("Swiss721BT-Roman.eot?#iefix") format("embedded-opentype"), url("Swiss721BT-Roman.woff2") format("woff2"), url("Swiss721BT-Roman.woff") format("woff"), url("Swiss721BT-Roman.ttf") format("truetype"), url("Swiss721BT-Roman.svg#Swiss721BT-Roman") format("svg");
+  /* Legacy iOS */
+}
+
 /*---------------*/
 /*---Variables---*/
 /*---------------*/
@@ -1144,6 +1310,9 @@ header .deskNav a .lineActive {
 /*-------------*/
 .contactContainer {
   background: #FCFDFF;
+  /*------------------*/
+  /*---Font Imports---*/
+  /*------------------*/
   /*---------------*/
   /*---Variables---*/
   /*---------------*/
@@ -1156,6 +1325,9 @@ header .deskNav a .lineActive {
   /*---------------*/
   /*---Contact Top Fold--*/
   /*---------------------*/
+  /*------------------*/
+  /*---Font Imports---*/
+  /*------------------*/
   /*---------------*/
   /*---Variables---*/
   /*---------------*/
@@ -1168,6 +1340,16 @@ header .deskNav a .lineActive {
   /*---------------*/
   /*---Contact Top Fold--*/
   /*---------------------*/
+}
+
+@font-face {
+  .contactContainer {
+    font-family: 'Swis721 BT';
+    src: url("Swiss721BT-Roman.eot");
+    /* IE9 Compat Modes */
+    src: url("Swiss721BT-Roman.eot?#iefix") format("embedded-opentype"), url("Swiss721BT-Roman.woff2") format("woff2"), url("Swiss721BT-Roman.woff") format("woff"), url("Swiss721BT-Roman.ttf") format("truetype"), url("Swiss721BT-Roman.svg#Swiss721BT-Roman") format("svg");
+    /* Legacy iOS */
+  }
 }
 
 .contactContainer .contactTopFold {
@@ -1196,12 +1378,22 @@ header .deskNav a .lineActive {
 .contactContainer .contactTopFold .aboutTitleContainer h2 {
   display: inline-block;
   color: #FCFDFF;
-  font-family: "Swiss721BT-Roman", sans-serif;
+  font-family: "Swis721 BT", "Poppins", sans-serif;
   font-weight: 400;
   font-size: calc(14vw * 0.9);
   line-height: 14vw;
   letter-spacing: -0.004em;
   text-decoration: none;
+}
+
+@font-face {
+  .contactContainer {
+    font-family: 'Swis721 BT';
+    src: url("Swiss721BT-Roman.eot");
+    /* IE9 Compat Modes */
+    src: url("Swiss721BT-Roman.eot?#iefix") format("embedded-opentype"), url("Swiss721BT-Roman.woff2") format("woff2"), url("Swiss721BT-Roman.woff") format("woff"), url("Swiss721BT-Roman.ttf") format("truetype"), url("Swiss721BT-Roman.svg#Swiss721BT-Roman") format("svg");
+    /* Legacy iOS */
+  }
 }
 
 .contactContainer .contactPresentation {
@@ -1245,7 +1437,7 @@ header .deskNav a .lineActive {
 }
 
 .contactContainer .contactPresentation .containerContactDetails h2 {
-  font-family: "Swiss721BT-Roman", sans-serif;
+  font-family: "Swis721 BT", "Poppins", sans-serif;
   font-weight: 400;
   font-size: 180px;
   font-size: calc(14vw * 0.9);
