@@ -1,3 +1,5 @@
+@import '../_info';
+
 /*------------------*/
 /* Mobile Menu Modal*/
 /*------------------*/
@@ -10,7 +12,7 @@
 	height: 100%;
 	top: 0;
 	left: 0;
-	background: red;
+	//background: red;
     z-index: 200;
     /* Overlay closing cross */
     .overlay-close {
@@ -54,7 +56,7 @@
                 line-height: 70px;
                 font-weight: 300;
                 display: block;
-                color: #000;
+                color: $black;
                 -webkit-transition: color 0.2s;
                 transition: color 0.2s;
                 text-decoration: none;
@@ -66,7 +68,7 @@
 
 .overlay ul li a:hover,
 .overlay ul li a:focus {
-	color: #000;
+	color: $black;
 }
 
 .container {
@@ -105,7 +107,7 @@
 }
 
 .overlay-contentpush {
-	background: #FCFDFF;
+	background: $white;
 	visibility: hidden;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;

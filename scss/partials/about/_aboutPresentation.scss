@@ -1,3 +1,4 @@
+@import '../shared/_info';
 
 /*---About Top Fold--*/
 /*-------------------*/
@@ -5,17 +6,19 @@
 .aboutPresentation{
     margin: 200px auto 210px;
     /* margin: 28.6vh auto 30vh; */
-    margin: 28.6vh auto 17vh;
+    //margin: 28.6vh auto 17vh;
+    margin: 28.6vh auto 14vh;
 
     .aboutParagraphs{
 
         p{
-            font-family: 'Rokkitt', serif;
+            font-family: $font-stack-display;
             font-weight: 400;
             /* font-size: 40px; */
-            font-size: 20px;
+            //font-size: 20px;
+            font-size: calc(20px * 0.9);
             /* font-size: 3.91236306729vw; */
-            color: #000;
+            color: $black;
             line-height: 24px;
             /* line-height: 3.83411580595vw; */
             width: 61vw;

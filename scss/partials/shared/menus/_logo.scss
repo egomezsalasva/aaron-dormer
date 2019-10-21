@@ -1,3 +1,4 @@
+@import '../_info';
 
 //LOGO// 
 .logo {
@@ -11,11 +12,12 @@
         text-decoration: none;
 
         h2{
-            font-family: 'Rokkitt', serif;
+            font-family: $font-stack-display;
             font-weight: 400;
-            font-size: 28px;
+            //font-size: 28px;
+            font-size: calc(28px * 0.9);
             line-height: 32px;
-            color: #FAFCFF;
+            color: $white;
             @media (max-width: 960px) {
             position: fixed;
             left: 25px;
@@ -27,7 +29,7 @@
             font-weight: 400;
             font-size: 1.2em;
             line-height: 12px;
-            color: #FAFCFF;
+            color: $white;
             text-decoration: none;
             @media (max-width: 960px) {
             position: fixed;

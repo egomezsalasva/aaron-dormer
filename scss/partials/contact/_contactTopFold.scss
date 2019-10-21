@@ -1,3 +1,4 @@
+@import '../shared/_info';
 
 /*---Contact Top Fold--*/
 /*---------------------*/
@@ -6,7 +7,7 @@
 .contactTopFold{
     width: 100vw;
     height: 100vh;
-    background: #000;
+    background: $black;
 
     .imageContactBg{
         width: 100vw;
@@ -25,10 +26,11 @@
 
         h2{
             display: inline-block;
-            color: #FCFDFF;
-            font-family: 'Rokkitt', serif;
+            color: $white;
+            font-family: $font-stack-display;
             font-weight: 400;
-            font-size: 14vw;
+            //font-size: 14vw; 'Rokkit'
+            font-size: calc(14vw * 0.9);
             line-height: 14vw;
             letter-spacing: -0.004em;
             text-decoration: none;

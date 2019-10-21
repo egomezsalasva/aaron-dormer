@@ -1,3 +1,4 @@
+@import '../shared/_info';
 
 /*---About PDF---*/
 /*---------------*/
@@ -8,13 +9,15 @@
 
     .aboutParagraphs{
         p{
-            font-family: 'Rokkitt', serif;
+            font-family: $font-stack-display;
             font-weight: 400;
-            color: #000;
+            color: $black;
             line-height: 24px;
             width: 43vw;
-            margin: 20px auto 21px;
-            font-size: 18px;
+            //margin: 20px auto 21px;
+            margin: 20px auto 41px;
+            // font-size: 18px; 'Rokkit'
+            font-size: calc(18px * 0.9);
             font-style: italic;
             @media (max-width: 1025px) {
                 font-size: 30px;
@@ -44,12 +47,14 @@
             text-decoration: none;
 
             h2{
-                font-family: 'Rokkitt', serif;
+                font-family: $font-stack-display;
                 font-weight: 400;
-                font-size: 40px;
+                //font-size: 40px;
+                font-size: calc(40px * 0.9);
                 /* font-size: 3.91236306729vw; */
-                color: #000;
-                line-height: 50px;
+                color: $black;
+                //line-height: 50px;
+                line-height: 70px;
             }
             .pdfLine{
                 position: absolute;
@@ -57,7 +62,7 @@
                 height: 4px;
                 bottom: 0;
                 left: 0;
-                background: black;
+                background: $black;
             }
         }
     }

@@ -1,4 +1,4 @@
-
+@import '../_info';
 
 .deskNav{
     position: fixed;
@@ -21,7 +21,7 @@
             text-decoration: none;
             list-style: none;
             font-size: 1.4em;
-            color: #FCFDFF;
+            color: $white;
             line-height: 20px;
         }
         .line{
@@ -30,7 +30,7 @@
             width: 0%;
             left: 0;
             bottom: 0;
-            background: #FCFDFF;
+            background: $white;
         }
         .lineActive{
             position: absolute;
@@ -38,7 +38,7 @@
             width: 100%;
             left: 0;
             bottom: 0;
-            background: #FCFDFF;
+            background: $white;
         }
     }
 }

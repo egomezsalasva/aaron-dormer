@@ -1,3 +1,4 @@
+@import '../shared/_info';
 
 /*---About PDF---*/
 /*---------------*/
@@ -6,7 +7,7 @@
     position: relative;
     width: 100vw;
     height: 80vh;
-    background: #000;
+    background: $black;
 
     .aboutTitleContactContainer {
         width: 70%;
@@ -20,13 +21,15 @@
         a{
             position: relative;
             display: inline-block;
-            color: #FCFDFF;
-            font-family: 'Rokkitt', serif;
+            color: $white;
+            font-family: $font-stack-display;
             font-weight: 400;
-            font-size: 180px;
-            font-size: 14vw;
-            line-height: 180px;
-            line-height: 13.75vw;
+            //font-size: 180px;'Rokkit'
+            //font-size: 14vw; 'Rokkit'
+            font-size: calc(14vw * 0.9);
+            // line-height: 180px; 'Rokkit'
+            // line-height: 13.75vw; 'Rokkit'
+            line-height: calc(14vw * 0.9);
             letter-spacing: -0.004em;
             text-decoration: none;
             @media (max-width: 600px){
@@ -40,7 +43,7 @@
                 height: 11px;
                 bottom: 0;
                 left: 0;
-                background: #FCFDFF;
+                background: $white;
                 @media (max-width: 600px){
                     height: 5px;
                 }
@@ -55,7 +58,7 @@
         }
 
         p{
-            color: #FCFDFF;
+            color: $white;
             text-align: right;
             opacity: 0.66;
             font-size: 14px;

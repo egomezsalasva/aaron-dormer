@@ -1,3 +1,5 @@
+@import '../shared/_info';
+
 /*------------*/
 /*---Shared---*/
 /*------------*/
@@ -7,7 +9,7 @@
     height: 100%;
     min-width: 100vw;
     width: 100%;
-    background: #000;
+    background: $black;
     margin: 0;
     overflow-y: hidden;
 }

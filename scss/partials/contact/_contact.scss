@@ -1,9 +1,11 @@
+@import '../shared/_info';
+
 /*-------------*/
 /*---Contact---*/
 /*-------------*/
 
 .contactContainer{
-    background: #FCFDFF;
+    background: $white;
 
     @import './_contactTopFold';
     @import './_contactPresentation';

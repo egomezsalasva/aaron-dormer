@@ -1,9 +1,11 @@
+@import '../shared/_info';
+
 /*-----------*/
 /*---About--*/
 /*-----------*/
 
 .aboutContainer{
-    background: #FCFDFF;
+    background: $white;
  
     @import './_aboutTopFold';
     @import './_aboutPresentation';

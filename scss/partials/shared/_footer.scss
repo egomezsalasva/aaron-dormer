@@ -1,20 +1,22 @@
+@import '../shared/_info';
+
 /*------------*/
 /*---Footer---*/
 /*------------*/
 
 .footerFollow{
     position: absolute;
-    color: #A5A6A8;
+    color: $lightGrey;
     bottom: 30px;
     right: 50px;
     font-size: 14px;
     a{
-        color: #A5A6A8;
+        color: $lightGrey;
         text-decoration: none;
         transition: color 0.4s;
         padding: 15px 0;
         &:hover{
-            color: #FCFDFF;
+            color: $white;
         }
     }
 }
@@ -23,13 +25,13 @@
     
     .footerContact{
         bottom: -220px;
-        color: #555657;
+        color: $mediumGrey;
 
         a{
-            color: #555657;
+            color: $mediumGrey;
 
             &:hover{
-                color: #000;
+                color: $black;
             }
         }
     }
